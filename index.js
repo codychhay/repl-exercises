@@ -7,3 +7,5 @@ Function.prototype.bind = function(whoIsCallingMe, ...args){
     return self.apply(whoIsCallingMe, args);
   };
 }
+
+
